@@ -78,3 +78,27 @@ hexo new first_post
 - Push.
 
 - Git repo -> settings -> pages -> set from actions.
+
+# clone the repo and update new posts on a diffrent machine
+## clone repo
+```bash
+git clone --recursive https://github.com/CurssedCoffin/CurssedCoffin.github.io
+```
+
+## install node env
+```bash
+npm install
+```
+
+## add new post
+```bash
+hexo new post_name
+```
+
+## preview at local machine
+```bash
+hexo server
+```
+
+## push
+push new files to git repo.
