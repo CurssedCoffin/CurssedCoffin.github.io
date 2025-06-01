@@ -112,7 +112,7 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
-  icon: icon.png
+  icon: assets/avatar.jpg
   autodiscovery: true
   template:
 # Sitemap
