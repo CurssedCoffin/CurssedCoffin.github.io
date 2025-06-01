@@ -97,7 +97,9 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
-plugins: hexo-generate-feed
+plugins:
+  - hexo-generate-feed
+  - hexo-generator-sitemap
 # Feed Atom
 feed:
   enable: true
@@ -119,3 +121,6 @@ deploy:
   type: git
   repository: https://github.com/CurssedCoffin/CurssedCoffin.github.io.git
   branch: main
+
+sitemap:
+  path: sitemap.xml

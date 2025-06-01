@@ -27,7 +27,7 @@ git clone https://github.com/next-theme/hexo-theme-next themes/next
 
 ## install plugins
 ```bash
-npm install --save hexo-deployer-git hexo-generator-feed hexo-filter-mathjax hexo-word-counter hexo-generator-searchdb
+npm install --save hexo-deployer-git hexo-generator-feed hexo-filter-mathjax hexo-word-counter hexo-generator-searchdb hexo-generator-sitemap
 ```
 
 ## run local demo
