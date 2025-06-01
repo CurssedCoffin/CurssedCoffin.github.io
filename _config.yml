@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://curssedcoffin.github.io/
+url: https://blog.curssedcoffin.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -100,6 +100,7 @@ theme: next
 plugins:
   - hexo-generate-feed
   - hexo-generator-sitemap
+
 # Feed Atom
 feed:
   enable: true
@@ -114,13 +115,11 @@ feed:
   icon: icon.png
   autodiscovery: true
   template:
+# Sitemap
+sitemap:
+  path: sitemap.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repository: https://github.com/CurssedCoffin/CurssedCoffin.github.io.git
-  branch: main
-
-sitemap:
-  path: sitemap.xml
+  type: ''
