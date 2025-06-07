@@ -1,7 +1,7 @@
 ---
 title: Nvidia显卡开启RTX VSR视频超分和RTX HDR
 tags: [疑难杂症, Nvidia, 显卡, RTX VSR, RTX HDR, 视频超分]
-categories: [视频超分]
+categories: [故障解决]
 mathjax: false
 date: 2025-06-01 00:32:41
 ---
